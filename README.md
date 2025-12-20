@@ -21,4 +21,9 @@
 3. **Polymorphism**
    - Method overloading
    - Method overriding
-   - Duck typing
+   - with Abstract Base Class
+4. **Encapsulation**
+   - private variable
+   - protected variable
+   - Getter and Setter method
+
