@@ -1,0 +1,45 @@
+# Virtual Environments
+myvenv/
+venv/
+.venv/
+env/
+ENV/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Environment Variables & Secrets
+.env
+.env.local
+*.key
+*.pem
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Distribution / Packaging
+*.egg-info/
+dist/
+build/
+
+# Large Datasets (uncomment specific patterns as needed)
+# Datasets/*.csv
+# Datasets/*.json
+# Datasets/*.parquet
