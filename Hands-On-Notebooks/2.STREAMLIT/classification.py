@@ -1,6 +1,6 @@
 '''
 Docstring for Hands-On-Notebooks.2.STREAMLIT.classification
-So creating a
+So creating a Ml APP for predicting the species of iris using streamlit
 '''
 import streamlit as st
 import pandas as pd
