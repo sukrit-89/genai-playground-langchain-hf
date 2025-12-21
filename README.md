@@ -27,3 +27,23 @@
    - protected variable
    - Getter and Setter method
 
+---
+
+## Day 2 - OOP Concepts (Continued)
+
+**Topics Covered:**
+
+5. **Abstraction**
+   - Abstract classes
+   - Abstract methods
+   - ABC module
+
+6. **Magic Methods**
+   - `__init__`, `__str__`, `__repr__`
+   - `__len__`, `__getitem__`
+   - Dunder methods
+
+7. **Operator Overloading**
+   - Overloading arithmetic operators
+   - Comparison operators
+   - Custom behavior for built-in operations
