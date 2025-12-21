@@ -57,21 +57,15 @@
    - Data visualization with Streamlit
    - Building ML/AI app interfaces
 
----
+### Natural Language Processing (NLP)
 
-## Day 3 - Natural Language Processing (NLP)
-
-**Topics Covered:**
-
-### NLP Fundamentals
-
-1. **NLP Overview**
+3.1. **NLP Overview**
    - Introduction to NLP concepts
    - NLP pipeline and workflow
    - Common NLP tasks and applications
 
-2. **Tokenization**
-   - Word tokenization
-   - Sentence tokenization
-   - Subword tokenization
-   - Practical implementation with Python libraries
+3.2. **Tokenization**
+    - Word tokenization
+    - Sentence tokenization
+    - Subword tokenization
+    - Practical implementation with Python libraries
