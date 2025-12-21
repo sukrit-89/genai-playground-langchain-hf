@@ -47,3 +47,12 @@
    - Overloading arithmetic operators
    - Comparison operators
    - Custom behavior for built-in operations
+
+### Streamlit Framework
+
+8. **Introduction to Streamlit**
+   - Streamlit basics and setup
+   - Creating interactive web apps
+   - Widgets and user inputs
+   - Data visualization with Streamlit
+   - Building ML/AI app interfaces
