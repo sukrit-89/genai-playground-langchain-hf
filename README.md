@@ -48,7 +48,7 @@
    - Comparison operators
    - Custom behavior for built-in operations
 
-### Streamlit Framework
+### Streamlit Framework (Basics)
 
 2.1. **Introduction to Streamlit**
    - Streamlit basics and setup
