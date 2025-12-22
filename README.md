@@ -65,7 +65,17 @@
    - Common NLP tasks and applications
 
 3.2. **Tokenization**
-    - Word tokenization
-    - Sentence tokenization
-    - Subword tokenization
-    - Practical implementation with Python libraries
+   - Word tokenization
+   - Sentence tokenization
+   - Subword tokenization
+   - Practical implementation with Python libraries
+---
+
+## Day 3 - NLP (Continued)
+
+3.3. **Tokenization**
+   - Stemming and its techniques
+   - Porter stemmer
+   - Regexp stemmer
+   - Snowball stemmer
+
