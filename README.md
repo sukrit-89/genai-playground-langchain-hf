@@ -79,3 +79,8 @@
    - Regexp stemmer
    - Snowball stemmer
 
+3.4. **Tokenization**
+   - Overview
+   - Word Net Lemmatizer
+   - Comparision and use cases
+
