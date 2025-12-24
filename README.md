@@ -73,14 +73,19 @@
 
 ## Day 3 - NLP (Continued)
 
-3.3. **Tokenization**
+3.3. **Stemming**
    - Stemming and its techniques
    - Porter stemmer
    - Regexp stemmer
    - Snowball stemmer
 
-3.4. **Tokenization**
+3.4. **Lemmatization**
    - Overview
    - Word Net Lemmatizer
    - Comparision and use cases
+
+3.5. **Stopwords**
+   - Overview
+   - Application on paragraph
+   - & compared the methods
 
