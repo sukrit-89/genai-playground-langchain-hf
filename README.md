@@ -89,3 +89,7 @@
    - Application on paragraph
    - & compared the methods
 
+3.6. **POS Tagging**
+   - POS Tagging and its techniques
+   - POS Tagging with NLTK
+   - POS for a single sentence
