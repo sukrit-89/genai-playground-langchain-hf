@@ -93,3 +93,11 @@
    - POS Tagging and its techniques
    - POS Tagging with NLTK
    - POS for a single sentence
+---
+
+## Day 4 - NLP (Continued)
+
+3.7. **Name Entity Recognition**
+   - Overview
+   - chunking
+   - Tree
