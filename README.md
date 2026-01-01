@@ -101,3 +101,8 @@
    - Overview
    - chunking
    - Tree
+
+3.8. **One Hot Encoding**
+   - Overview
+   - Advantages
+   - Disadvantages
