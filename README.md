@@ -106,3 +106,9 @@
    - Overview
    - Advantages
    - Disadvantages
+
+3.9. **Bag Of Words**
+   - Overview
+   - Advantages
+   - Disadvantages
+   - Model creation
