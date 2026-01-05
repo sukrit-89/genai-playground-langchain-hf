@@ -112,3 +112,12 @@
    - Advantages
    - Disadvantages
    - Model creation
+---
+
+## Day 4 - NLP (Continued)
+
+3.7. **N Grams**
+   - Overview
+   - Bigrams 
+   - Trigrams
+
