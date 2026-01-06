@@ -116,8 +116,13 @@
 
 ## Day 5 - NLP (Continued)
 
-3.7. **N Grams**
+3.10. **N Grams**
    - Overview
    - Bigrams 
    - Trigrams
 
+3.11. **TF-IDF**
+   - Overview
+   - Advantages 
+   - Disadvantages
+   - Model creation
