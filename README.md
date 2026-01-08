@@ -2,6 +2,8 @@
 
 ## Day 1 - Python Fundamentals Revision
 
+📂 [View Hands-On Notebooks](./Hands-On-Notebooks/1.OOPS)
+
 **Topics Covered:**
 
 - Brushed up on Python basics (syntax, variables, data types, error handling)
@@ -50,6 +52,8 @@
 
 ### Streamlit Framework (Basics)
 
+📂 [View Hands-On Notebooks](./Hands-On-Notebooks/2.STREAMLIT)
+
 2.1. **Introduction to Streamlit**
    - Streamlit basics and setup
    - Creating interactive web apps
@@ -57,7 +61,9 @@
    - Data visualization with Streamlit
    - Building ML/AI app interfaces
 
-### Natural Language Processing (NLP)
+### Natural Language Processing (NLP-Word Embedding)
+
+📂 [View Hands-On Notebooks](./Hands-On-Notebooks/3.NLP(Word%20Embedding))
 
 3.1. **NLP Overview**
    - Introduction to NLP concepts
@@ -71,7 +77,7 @@
    - Practical implementation with Python libraries
 ---
 
-## Day 3 - NLP (Continued)
+## Day 3 - NLP (Text-Preprocessing & Word Embedding Techniques)
 
 3.3. **Stemming**
    - Stemming and its techniques
@@ -95,7 +101,7 @@
    - POS for a single sentence
 ---
 
-## Day 4 - NLP (Continued)
+## Day 4 - NLP (Text-Preprocessing & Word Embedding Techniques)
 
 3.7. **Name Entity Recognition**
    - Overview
@@ -114,7 +120,7 @@
    - Model creation
 ---
 
-## Day 5 - NLP (Continued)
+## Day 5 - NLP (Text-Preprocessing & Word Embedding Techniques)
 
 3.10. **N Grams**
    - Overview
@@ -126,3 +132,9 @@
    - Advantages 
    - Disadvantages
    - Model creation
+
+3.12.**Word2Vec**
+   - Overview
+   - Types 
+   - Average Word2Vec
+   - Practical Implementation
