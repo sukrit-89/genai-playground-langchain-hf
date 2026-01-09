@@ -24,6 +24,7 @@
    - Method overloading
    - Method overriding
    - with Abstract Base Class
+
 1.4. **Encapsulation**
    - private variable
    - protected variable
@@ -150,3 +151,8 @@
    - Why ANN fails with sequential data
    - RNN Overview
 
+4.2.**Simple RNN**
+   - Intution
+   - Forward Propagation 
+   - Backward propagation
+   - Problems
