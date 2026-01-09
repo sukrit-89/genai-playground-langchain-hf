@@ -138,3 +138,15 @@
    - Types 
    - Average Word2Vec
    - Practical Implementation
+---
+
+## Day 6
+
+### Deep Learning in NLP
+
+4.1.**ANN Vs RNN**
+   - ANN Overview
+   - Types of data 
+   - Why ANN fails with sequential data
+   - RNN Overview
+
