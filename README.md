@@ -156,3 +156,18 @@
    - Forward Propagation 
    - Backward propagation
    - Problems
+
+---
+
+## Mini Projects
+
+📂 [View Mini Projects](./Mini-projects)
+
+### 1. Churn Modelling Prediction App
+
+**Project**: Customer Churn Prediction using ANN
+- Built with Streamlit for interactive web interface
+- Deep Learning model (ANN) for binary classification
+- Features: Customer demographics, credit score, balance, products
+- Real-time prediction with probability scores
+- Preprocessing: StandardScaler, Label Encoding, One-Hot Encoding
