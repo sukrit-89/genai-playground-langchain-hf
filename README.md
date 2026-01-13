@@ -145,6 +145,8 @@
 
 ### Deep Learning in NLP
 
+📂 [View Deep Learning in NLP](./Hands-On-Notebooks/4.DL-in-NLP)
+
 4.1.**ANN Vs RNN**
    - ANN Overview
    - Types of data 
