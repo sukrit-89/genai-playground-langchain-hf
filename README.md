@@ -1,187 +1,255 @@
-# GenAI Learning Repository
+# 🤖 GenAI Learning Repository
 
-## Day 1 - Python Fundamentals Revision
+A comprehensive learning journey through Generative AI, covering Python fundamentals, Natural Language Processing, Deep Learning, and hands-on mini projects using LangChain and HuggingFace.
 
-📂 [View Hands-On Notebooks](./Hands-On-Notebooks/1.OOPS)
-
-**Topics Covered:**
-
-- Brushed up on Python basics (syntax, variables, data types, error handling)
-
-### Object-Oriented Programming (OOP)
-
-1.1. **OOP Basics**
-   - Classes and objects
-   - Attributes and methods
-   - Constructors
-
-1.2. **Inheritance**
-   - Parent and child classes
-   - Method overriding
-   - Super keyword
-
-1.3. **Polymorphism**
-   - Method overloading
-   - Method overriding
-   - with Abstract Base Class
-
-1.4. **Encapsulation**
-   - private variable
-   - protected variable
-   - Getter and Setter method
+[![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)](https://www.python.org/)
+[![TensorFlow](https://img.shields.io/badge/TensorFlow-2.15-orange.svg)](https://www.tensorflow.org/)
+[![Streamlit](https://img.shields.io/badge/Streamlit-1.52-red.svg)](https://streamlit.io/)
 
 ---
 
-## Day 2 - OOP Concepts (Continued)
+## 📚 Table of Contents
 
-**Topics Covered:**
-
-1.5. **Abstraction**
-   - Abstract classes
-   - Abstract methods
-   - ABC module
-
-1.6. **Magic Methods**
-   - `__init__`, `__str__`, `__repr__`
-   - `__len__`, `__getitem__`
-   - Dunder methods
-
-1.7. **Operator Overloading**
-   - Overloading arithmetic operators
-   - Comparison operators
-   - Custom behavior for built-in operations
-
-### Streamlit Framework (Basics)
-
-📂 [View Hands-On Notebooks](./Hands-On-Notebooks/2.STREAMLIT)
-
-2.1. **Introduction to Streamlit**
-   - Streamlit basics and setup
-   - Creating interactive web apps
-   - Widgets and user inputs
-   - Data visualization with Streamlit
-   - Building ML/AI app interfaces
-
-### Natural Language Processing (NLP-Word Embedding)
-
-📂 [View Hands-On Notebooks](./Hands-On-Notebooks/3.NLP(Word%20Embedding))
-
-3.1. **NLP Overview**
-   - Introduction to NLP concepts
-   - NLP pipeline and workflow
-   - Common NLP tasks and applications
-
-3.2. **Tokenization**
-   - Word tokenization
-   - Sentence tokenization
-   - Subword tokenization
-   - Practical implementation with Python libraries
----
-
-## Day 3 - NLP (Text-Preprocessing & Word Embedding Techniques)
-
-3.3. **Stemming**
-   - Stemming and its techniques
-   - Porter stemmer
-   - Regexp stemmer
-   - Snowball stemmer
-
-3.4. **Lemmatization**
-   - Overview
-   - Word Net Lemmatizer
-   - Comparision and use cases
-
-3.5. **Stopwords**
-   - Overview
-   - Application on paragraph
-   - & compared the methods
-
-3.6. **POS Tagging**
-   - POS Tagging and its techniques
-   - POS Tagging with NLTK
-   - POS for a single sentence
----
-
-## Day 4 - NLP (Text-Preprocessing & Word Embedding Techniques)
-
-3.7. **Name Entity Recognition**
-   - Overview
-   - chunking
-   - Tree
-
-3.8. **One Hot Encoding**
-   - Overview
-   - Advantages
-   - Disadvantages
-
-3.9. **Bag Of Words**
-   - Overview
-   - Advantages
-   - Disadvantages
-   - Model creation
----
-
-## Day 5 - NLP (Text-Preprocessing & Word Embedding Techniques)
-
-3.10. **N Grams**
-   - Overview
-   - Bigrams 
-   - Trigrams
-
-3.11. **TF-IDF**
-   - Overview
-   - Advantages 
-   - Disadvantages
-   - Model creation
-
-3.12.**Word2Vec**
-   - Overview
-   - Types 
-   - Average Word2Vec
-   - Practical Implementation
----
-
-## Day 6
-
-### Deep Learning in NLP
-
-📂 [View Deep Learning in NLP](./Hands-On-Notebooks/4.DL-in-NLP)
-
-4.1.**ANN Vs RNN**
-   - ANN Overview
-   - Types of data 
-   - Why ANN fails with sequential data
-   - RNN Overview
-
-4.2.**Simple RNN**
-   - Intution
-   - Forward Propagation 
-   - Backward propagation
-   - Problems
+- [Learning Path](#-learning-path)
+  - [Day 1-2: Python & OOP](#day-1-2---python--oop)
+  - [Day 3-5: NLP Fundamentals](#day-3-5---nlp-fundamentals)
+  - [Day 6: Deep Learning](#day-6---deep-learning)
+- [Mini Projects](#-mini-projects)
+- [Tech Stack](#-tech-stack)
+- [Getting Started](#-getting-started)
 
 ---
 
-## Mini Projects
+## 🎯 Learning Path
 
-📂 [View Mini Projects](./Mini-projects)
+### Day 1-2 - Python & OOP
 
-### 1. Churn Modelling Prediction App
+📂 [View Notebooks](./Hands-On-Notebooks/1.OOPS) | 📂 [Streamlit Projects](./Hands-On-Notebooks/2.STREAMLIT)
 
-**Project**: Customer Churn Prediction using ANN
-- Built with Streamlit for interactive web interface
-- Deep Learning model (ANN) for binary classification
-- Features: Customer demographics, credit score, balance, products
-- Real-time prediction with probability scores
-- Preprocessing: StandardScaler, Label Encoding, One-Hot Encoding
+#### **Object-Oriented Programming**
+
+<details>
+<summary><b>Core OOP Concepts</b></summary>
+
+- **OOP Basics**: Classes, objects, attributes, methods, constructors
+- **Inheritance**: Parent/child classes, method overriding, super keyword
+- **Polymorphism**: Method overloading, method overriding, Abstract Base Class
+- **Encapsulation**: Private/protected variables, getters & setters
+- **Abstraction**: Abstract classes, abstract methods, ABC module
+- **Magic Methods**: `__init__`, `__str__`, `__repr__`, `__len__`, `__getitem__`
+- **Operator Overloading**: Arithmetic & comparison operators
+
+</details>
+
+#### **Streamlit Framework**
+
+- Building interactive web applications
+- Widgets and user inputs
+- Data visualization
+- ML/AI app interfaces
 
 ---
 
-### 2. Salary Regression Prediction App
+### Day 3-5 - NLP Fundamentals
 
-**Project**: Customer Salary Estimation using ANN Regression
-- Built with Streamlit for interactive web interface
-- Deep Learning model (ANN) for regression
-- Predicts estimated annual salary based on customer banking profile
-- Features: Geography, gender, age, credit score, balance, tenure, products, account status
-- Preprocessing: StandardScaler, Label Encoding, One-Hot Encoding
-- TensorBoard integration for training visualization
+📂 [View Notebooks](./Hands-On-Notebooks/3.NLP(Word%20Embedding))
+
+#### **Text Preprocessing**
+
+| Topic | Concepts Covered |
+|-------|-----------------|
+| **Tokenization** | Word, sentence, and subword tokenization |
+| **Stemming** | Porter, Regexp, Snowball stemmers |
+| **Lemmatization** | WordNet Lemmatizer, comparison with stemming |
+| **Stopwords** | Removal techniques and applications |
+| **POS Tagging** | Part-of-speech tagging with NLTK |
+| **NER** | Named Entity Recognition, chunking, tree structures |
+
+#### **Word Embedding Techniques**
+
+| Technique | Description |
+|-----------|-------------|
+| **One Hot Encoding** | Binary vector representation |
+| **Bag of Words** | Document-term frequency matrix |
+| **N-Grams** | Bigrams, trigrams for context |
+| **TF-IDF** | Term frequency-inverse document frequency |
+| **Word2Vec** | Dense word embeddings, CBOW, Skip-gram |
+
+---
+
+### Day 6 - Deep Learning
+
+📂 [View Notebooks](./Hands-On-Notebooks/4.DEEP-LEARNING)
+
+#### **Recurrent Neural Networks**
+
+- **ANN vs RNN**: Understanding sequential data challenges
+- **Simple RNN**: Architecture, forward/backward propagation, limitations
+- **Vanishing Gradient Problem**: Challenges with long sequences
+
+---
+
+## 🚀 Mini Projects
+
+📂 [View All Projects](./Mini-projects)
+
+### 1️⃣ Customer Churn Prediction 📊
+
+> **Binary Classification** using Artificial Neural Networks
+
+**🎯 Objective:** Predict whether a customer will leave the bank based on their profile and behavior.
+
+**✨ Features:**
+- 🖥️ Interactive Streamlit web interface
+- 🧠 Deep Learning (ANN) for binary classification
+- 📈 Real-time prediction with probability scores
+- 📊 Customer demographics, credit score, balance, products
+
+**🔧 Tech Stack:**
+- TensorFlow/Keras
+- Streamlit
+- scikit-learn (StandardScaler, LabelEncoder, OneHotEncoder)
+
+**📁 Project Structure:**
+```
+CHURN-MODELLING/
+├── app.py                    # Streamlit application
+├── experiments.ipynb         # Model training & experimentation
+├── prediction.ipynb          # Model evaluation
+├── model.h5                  # Trained model
+└── *.pkl                     # Preprocessing artifacts
+```
+
+---
+
+### 2️⃣ Salary Regression Predictor 💰
+
+> **Regression Model** to estimate customer salary
+
+**🎯 Objective:** Predict estimated annual salary based on customer banking profile.
+
+**✨ Features:**
+- 🖥️ Beautiful Streamlit UI with metric displays
+- 🧠 ANN Regression model
+- 📊 Customer profile summary visualization
+- 📈 TensorBoard integration for training monitoring
+
+**🔧 Tech Stack:**
+- TensorFlow/Keras
+- Streamlit
+- TensorBoard
+- scikit-learn (StandardScaler, LabelEncoder, OneHotEncoder)
+
+**📁 Project Structure:**
+```
+Regression/
+├── streamlit_reg.py          # Streamlit application
+├── Salaryregression.ipynb    # Model training notebook
+├── regression_model.h5       # Trained regression model
+├── logs/                     # TensorBoard logs
+└── *.pkl                     # Preprocessing artifacts
+```
+
+---
+
+## 🛠️ Tech Stack
+
+### **Core Technologies**
+
+| Category | Tools & Libraries |
+|----------|------------------|
+| **Languages** | Python 3.10+ |
+| **Deep Learning** | TensorFlow 2.15, Keras |
+| **ML Libraries** | scikit-learn, NumPy, Pandas |
+| **NLP** | NLTK, Gensim |
+| **Web Framework** | Streamlit 1.52 |
+| **Visualization** | Matplotlib, Seaborn, TensorBoard |
+| **Version Control** | Git, GitHub |
+
+---
+
+## 🚦 Getting Started
+
+### Prerequisites
+
+```bash
+Python 3.10 or higher
+pip (Python package manager)
+```
+
+### Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/sukrit-89/genai-playground-langchain-hf.git
+   cd genai-playground-langchain-hf
+   ```
+
+2. **Create virtual environment**
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # On Windows: venv\Scripts\activate
+   ```
+
+3. **Install dependencies**
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+### Running Mini Projects
+
+#### Churn Prediction App
+```bash
+cd Mini-projects/CHURN-MODELLING
+streamlit run app.py
+```
+
+#### Salary Regression App
+```bash
+cd Mini-projects/Regression
+streamlit run streamlit_reg.py
+```
+
+---
+
+## 📈 Learning Progress
+
+- ✅ Python OOP Fundamentals
+- ✅ Streamlit Framework
+- ✅ NLP Text Preprocessing
+- ✅ Word Embedding Techniques
+- ✅ Deep Learning Basics (ANN, RNN)
+- ✅ Binary Classification Project
+- ✅ Regression Project
+- 🔄 Advanced RNN Architectures (LSTM, GRU) - In Progress
+
+---
+
+## 📝 Notes
+
+- All notebooks are organized by learning day and topic
+- Model files (`.h5`, `.pkl`) are excluded from version control
+- TensorBoard logs available for training visualization
+- Datasets are not tracked in Git (see `.gitignore`)
+
+---
+
+## 🤝 Contributing
+
+This is a personal learning repository. However, suggestions and feedback are always welcome!
+
+---
+
+## 📄 License
+
+This project is for educational purposes.
+
+---
+
+<div align="center">
+
+**Happy Learning! 🚀**
+
+Made with ❤️ by Sukrit
+
+</div>
