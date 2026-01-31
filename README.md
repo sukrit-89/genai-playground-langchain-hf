@@ -173,3 +173,15 @@
 - Features: Customer demographics, credit score, balance, products
 - Real-time prediction with probability scores
 - Preprocessing: StandardScaler, Label Encoding, One-Hot Encoding
+
+---
+
+### 2. Salary Regression Prediction App
+
+**Project**: Customer Salary Estimation using ANN Regression
+- Built with Streamlit for interactive web interface
+- Deep Learning model (ANN) for regression
+- Predicts estimated annual salary based on customer banking profile
+- Features: Geography, gender, age, credit score, balance, tenure, products, account status
+- Preprocessing: StandardScaler, Label Encoding, One-Hot Encoding
+- TensorBoard integration for training visualization
