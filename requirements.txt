@@ -8,3 +8,4 @@ memory_profiler
 streamlit
 scikit-learn
 nltk==3.8.1
+scikeras
