@@ -68,7 +68,7 @@ if st.button('Predict Salary', type='primary'):
     predicted_salary = prediction[0][0]
 
     # Display results
-    st.success('✅ Prediction Complete!')
+    st.success(' Prediction Complete!')
     
     st.metric(
         label="Estimated Annual Salary",
@@ -97,4 +97,4 @@ if st.button('Predict Salary', type='primary'):
 
 # Footer
 st.markdown('---')
-st.caption('💡 This prediction is based on an Artificial Neural Network trained on customer banking data.')
+st.caption(' This prediction is based on an Artificial Neural Network trained on customer banking data.')
