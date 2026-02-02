@@ -152,6 +152,36 @@ Regression/
 
 ---
 
+### 3️⃣ Movie Review Sentiment Analysis 🎬
+
+> **RNN-based Sentiment Classification** for IMDB movie reviews
+
+**🎯 Objective:** Classify movie reviews as positive or negative using Recurrent Neural Networks.
+
+**✨ Features:**
+- 🖥️ Clean and intuitive Streamlit interface
+- 🧠 Simple RNN model trained on IMDB dataset
+- 📊 Real-time sentiment prediction with confidence scores
+- 🎭 Handles user-provided movie reviews of any length
+- 📈 Preprocessing pipeline with word embedding
+
+**🔧 Tech Stack:**
+- TensorFlow/Keras (SimpleRNN)
+- Streamlit
+- IMDB Dataset (10,000 vocabulary size)
+- Sequence padding (max length: 500)
+
+**📁 Project Structure:**
+```
+Movie-Review-RNN/
+├── main.py                   # Streamlit application
+├── RnnProject.ipynb          # Model training notebook
+├── prediction.ipynb          # Model evaluation & testing
+└── simple_rnn_imdb.keras     # Trained RNN model
+```
+
+---
+
 ## 🛠️ Tech Stack
 
 ### **Core Technologies**
@@ -210,6 +240,12 @@ cd Mini-projects/Regression
 streamlit run streamlit_reg.py
 ```
 
+#### Movie Review Sentiment Analysis
+```bash
+cd Mini-projects/RNN/Movie-Review-RNN
+streamlit run main.py
+```
+
 ---
 
 ## 📈 Learning Progress
@@ -219,8 +255,9 @@ streamlit run streamlit_reg.py
 - ✅ NLP Text Preprocessing
 - ✅ Word Embedding Techniques
 - ✅ Deep Learning Basics (ANN, RNN)
-- ✅ Binary Classification Project
-- ✅ Regression Project
+- ✅ Binary Classification Project (Churn Prediction)
+- ✅ Regression Project (Salary Estimation)
+- ✅ RNN Sentiment Analysis Project (Movie Reviews)
 - 🔄 Advanced RNN Architectures (LSTM, GRU) - In Progress
 
 ---
