@@ -11,9 +11,9 @@ A comprehensive learning journey through Generative AI, covering Python fundamen
 ## 📚 Table of Contents
 
 - [Learning Path](#-learning-path)
-  - [Day 1-2: Python & OOP](#day-1-2---python--oop)
-  - [Day 3-5: NLP Fundamentals](#day-3-5---nlp-fundamentals)
-  - [Day 6: Deep Learning](#day-6---deep-learning)
+  - [Python & OOP](#-python--oop)
+  - [NLP Fundamentals](#-nlp-fundamentals)
+  - [Deep Learning](#-deep-learning)
 - [Mini Projects](#-mini-projects)
 - [Tech Stack](#-tech-stack)
 - [Getting Started](#-getting-started)
@@ -22,7 +22,7 @@ A comprehensive learning journey through Generative AI, covering Python fundamen
 
 ## 🎯 Learning Path
 
-### Day 1-2 - Python & OOP
+### 🐍 Python & OOP
 
 📂 [View Notebooks](./Hands-On-Notebooks/1.OOPS) | 📂 [Streamlit Projects](./Hands-On-Notebooks/2.STREAMLIT)
 
@@ -50,7 +50,7 @@ A comprehensive learning journey through Generative AI, covering Python fundamen
 
 ---
 
-### Day 3-5 - NLP Fundamentals
+### 📝 NLP Fundamentals
 
 📂 [View Notebooks](./Hands-On-Notebooks/3.NLP(Word%20Embedding))
 
@@ -77,15 +77,68 @@ A comprehensive learning journey through Generative AI, covering Python fundamen
 
 ---
 
-### Day 6 - Deep Learning
+### 🧠 Deep Learning
 
 📂 [View Notebooks](./Hands-On-Notebooks/4.DEEP-LEARNING)
 
-#### **Recurrent Neural Networks**
+#### **Recurrent Neural Networks (RNN)**
+
+<details>
+<summary><b>Simple RNN</b></summary>
 
 - **ANN vs RNN**: Understanding sequential data challenges
-- **Simple RNN**: Architecture, forward/backward propagation, limitations
-- **Vanishing Gradient Problem**: Challenges with long sequences
+- **Simple RNN**: Architecture, forward/backward propagation
+- **Vanishing Gradient Problem**: Challenges with long sequences and why it matters
+
+</details>
+
+#### **Long Short-Term Memory (LSTM)**
+
+<details>
+<summary><b>LSTM Architecture & Components</b></summary>
+
+📂 [LSTM Learning Materials](./Hands-On-Notebooks/4.DEEP-LEARNING/LSTM-RNN) | 🖼️ [Reference Images](./Hands-On-Notebooks/4.DEEP-LEARNING/LSTM-RNN/images)
+
+**Why LSTM?**
+- Solves the vanishing gradient problem of simple RNNs
+- Enables learning from long-term dependencies
+- Maintains information across long sequences
+
+**Core Components:**
+
+| Component | Description |
+|-----------|-------------|
+| **Cell State (Ct)** | The "memory" of the network, carries information across time steps |
+| **Hidden State (ht)** | The output of the LSTM cell at each time step |
+| **Forget Gate** | Decides what information to discard from the cell state |
+| **Input Gate** | Decides what new information to store in the cell state |
+| **Output Gate** | Decides what information from the cell state to output |
+
+**Gate Operations:**
+
+1. **Forget Gate (ft)**: `ft = σ(Wf · [ht-1, xt] + bf)`
+   - Uses sigmoid activation to output values between 0 and 1
+   - 0 = completely forget, 1 = completely keep
+
+2. **Input Gate (it)**: `it = σ(Wi · [ht-1, xt] + bi)`
+   - Decides which values to update in the cell state
+   - Works with candidate values: `C̃t = tanh(Wc · [ht-1, xt] + bc)`
+
+3. **Cell State Update**: `Ct = ft * Ct-1 + it * C̃t`
+   - Combines forget and input operations
+   - Maintains long-term memory
+
+4. **Output Gate (ot)**: `ot = σ(Wo · [ht-1, xt] + bo)`
+   - Decides what to output based on cell state
+   - Final output: `ht = ot * tanh(Ct)`
+
+**Key Advantages:**
+- Better gradient flow during backpropagation
+- Selective memory (can choose what to remember/forget)
+- Handles long-term dependencies effectively
+- Widely used in NLP, time series, and sequence modeling
+
+</details>
 
 ---
 
@@ -255,16 +308,17 @@ streamlit run main.py
 - ✅ NLP Text Preprocessing
 - ✅ Word Embedding Techniques
 - ✅ Deep Learning Basics (ANN, RNN)
+- ✅ LSTM-RNN Architecture
 - ✅ Binary Classification Project (Churn Prediction)
 - ✅ Regression Project (Salary Estimation)
 - ✅ RNN Sentiment Analysis Project (Movie Reviews)
-- 🔄 Advanced RNN Architectures (LSTM, GRU) - In Progress
+- 🔄 Advanced Deep Learning (GRU, Bidirectional RNNs, Transformers) - In Progress
 
 ---
 
 ## 📝 Notes
 
-- All notebooks are organized by learning day and topic
+- All notebooks are organized by topic and concept
 - Model files (`.h5`, `.pkl`) are excluded from version control
 - TensorBoard logs available for training visualization
 - Datasets are not tracked in Git (see `.gitignore`)
