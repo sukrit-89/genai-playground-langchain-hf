@@ -235,6 +235,40 @@ Movie-Review-RNN/
 
 ---
 
+### 4️⃣ Next Word Prediction with LSTM 📝
+
+> **LSTM-based Text Generation and Word Prediction** | [🚀 Live Demo](https://wordpred.streamlit.app/)
+
+**🎯 Objective:** Predict the next word in a sequence using LSTM trained on Shakespeare's Hamlet.
+
+**✨ Features:**
+- 🌐 Deployed live on Streamlit Cloud
+- 🧠 LSTM model for sequence prediction
+- 📚 Trained on classic literature (Shakespeare's Hamlet)
+- ⚡ Real-time word prediction
+- 🎯 Early stopping for optimal training
+- 🔮 Handles variable-length input sequences
+
+**🔧 Tech Stack:**
+- TensorFlow/Keras (LSTM)
+- Streamlit
+- Text Tokenization & Preprocessing
+- Sequence Padding
+
+**📁 Project Structure:**
+```
+LSTM-RNN/
+├── app.py                    # Streamlit application
+├── experiments.ipynb         # Model training & experimentation
+├── hamlet.txt                # Training dataset (Shakespeare)
+├── word_prediction_lstm.h5   # Trained LSTM model
+└── tokenizer.pickle          # Text tokenizer
+```
+
+**🌐 Live Demo:** [https://wordpred.streamlit.app/](https://wordpred.streamlit.app/)
+
+---
+
 ## 🛠️ Tech Stack
 
 ### **Core Technologies**
@@ -299,6 +333,14 @@ cd Mini-projects/RNN/Movie-Review-RNN
 streamlit run main.py
 ```
 
+#### Next Word Prediction (LSTM)
+```bash
+cd Mini-projects/LSTM-RNN
+streamlit run app.py
+```
+
+**🌐 Or visit the live deployment:** [https://wordpred.streamlit.app/](https://wordpred.streamlit.app/)
+
 ---
 
 ## 📈 Learning Progress
@@ -312,6 +354,7 @@ streamlit run main.py
 - ✅ Binary Classification Project (Churn Prediction)
 - ✅ Regression Project (Salary Estimation)
 - ✅ RNN Sentiment Analysis Project (Movie Reviews)
+- ✅ LSTM Word Prediction Project (Next Word Generation)
 - 🔄 Advanced Deep Learning (GRU, Bidirectional RNNs, Transformers) - In Progress
 
 ---
