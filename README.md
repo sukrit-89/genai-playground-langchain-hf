@@ -140,6 +140,87 @@ A comprehensive learning journey through Generative AI, covering Python fundamen
 
 </details>
 
+#### **LSTM Variants**
+
+<details>
+<summary><b>Different Flavours of LSTM</b></summary>
+
+📂 [LSTM Variants Notebook](./Hands-On-Notebooks/4.DEEP-LEARNING/LSTM-RNN/4.14-Variants-LSTM.ipynb)
+
+| Variant | Key Difference |
+|---------|----------------|
+| **Vanilla LSTM** | Standard LSTM with all three gates |
+| **Peephole LSTM** | Gates can peek at cell state `Ct-1` directly |
+| **Coupled Gates** | Forget and input gates are linked — what is forgotten is replaced by new info |
+| **GRU (Gated Recurrent Unit)** | Merges cell state & hidden state; only 2 gates (Update + Reset) |
+
+</details>
+
+#### **Gated Recurrent Unit (GRU)**
+
+<details>
+<summary><b>GRU Architecture & Comparison with LSTM</b></summary>
+
+📂 [GRU Notebook](./Hands-On-Notebooks/4.DEEP-LEARNING/LSTM-RNN/4.15-GRU-RNN.ipynb)
+
+**Why GRU?**
+- Simpler than LSTM — fewer parameters, faster to train
+- Combines forget & input gates into a single **Update Gate**
+- Merges cell state and hidden state into one
+
+**Gate Mechanisms:**
+
+| Gate | Formula | Role |
+|------|---------|------|
+| **Update Gate (zt)** | `zt = σ(Wz · [ht-1, xt])` | Controls how much past info to keep |
+| **Reset Gate (rt)** | `rt = σ(Wr · [ht-1, xt])` | Controls how much past info to forget |
+| **Candidate State** | `h̃t = tanh(W · [rt * ht-1, xt])` | New candidate hidden state |
+| **Output** | `ht = (1-zt) * ht-1 + zt * h̃t` | Final hidden state |
+
+**GRU vs LSTM:**
+
+| | GRU | LSTM |
+|--|-----|------|
+| **Gates** | 2 (Update, Reset) | 3 (Forget, Input, Output) |
+| **States** | 1 (Hidden state) | 2 (Cell + Hidden state) |
+| **Parameters** | Fewer | More |
+| **Speed** | Faster | Slower |
+| **Best for** | Smaller datasets, faster training | Long sequences, complex tasks |
+
+</details>
+
+#### **Bidirectional RNN**
+
+<details>
+<summary><b>Bidirectional Architecture & Use Cases</b></summary>
+
+📂 [Bidirectional RNN Notebook](./Hands-On-Notebooks/4.DEEP-LEARNING/Bidirectional-RNN/Bidir.ipynb)
+
+**What is Bidirectional RNN?**
+- Runs two RNNs simultaneously — one forward (past → future) and one backward (future → past)
+- Final output is a combination of both directions
+- Can be applied to any RNN variant: Simple RNN, LSTM, GRU
+
+**How it works:**
+```
+Forward RNN:   x1 → x2 → x3 → x4  (left to right)
+Backward RNN:  x4 → x3 → x2 → x1  (right to left)
+Output:        concat(forward_ht, backward_ht)
+```
+
+**Key Advantages:**
+- Captures context from **both past and future** tokens
+- Significant improvement for NLP tasks (translation, NER, sentiment)
+- Foundation for modern architectures like BERT
+
+**When to use:**
+- ✅ NLP tasks where full-sentence context matters
+- ✅ Named Entity Recognition (NER)
+- ✅ Machine Translation
+- ❌ Time series / real-time prediction (future data unavailable)
+
+</details>
+
 ---
 
 ## 🚀 Mini Projects
@@ -350,12 +431,15 @@ streamlit run app.py
 - ✅ NLP Text Preprocessing
 - ✅ Word Embedding Techniques
 - ✅ Deep Learning Basics (ANN, RNN)
-- ✅ LSTM-RNN Architecture
+- ✅ LSTM-RNN Architecture & Training Process
+- ✅ LSTM Variants (Peephole, Coupled Gates)
+- ✅ GRU (Gated Recurrent Unit)
+- ✅ Bidirectional RNN
 - ✅ Binary Classification Project (Churn Prediction)
 - ✅ Regression Project (Salary Estimation)
 - ✅ RNN Sentiment Analysis Project (Movie Reviews)
 - ✅ LSTM Word Prediction Project (Next Word Generation)
-- 🔄 Advanced Deep Learning (GRU, Bidirectional RNNs, Transformers) - In Progress
+- 🔄 Transformers & Attention Mechanism - In Progress
 
 ---
 
